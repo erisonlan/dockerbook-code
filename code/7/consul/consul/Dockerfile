@@ -1,6 +1,6 @@
-FROM ubuntu:16.04
+FROM ubuntu
 LABEL maintainer="james@example.com"
-ENV REFRESHED_AT 2016-06-01
+ENV REFRESHED_AT 2018-11-08
 
 RUN apt-get -qq update
 RUN apt-get -qq install curl unzip
